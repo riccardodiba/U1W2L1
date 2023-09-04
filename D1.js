@@ -26,7 +26,8 @@ E così via
 */
 
 /* SCRIVI QUIl LA TUA RISPOSTA */
-let name="Riccardo"
+let namefirst="Riccardo"
+console.log(namefirst)
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
@@ -61,9 +62,10 @@ const cognome="di bari"
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let number4 = 4;
-let variabile=12;
-console.log(number4-variabile)
+
+const subtrasction=4-x
+console.log("il risultato della sottrazione è",subtrasction)
+
 
 
 
@@ -86,3 +88,4 @@ let name2="Jonh"
 console.log(name1 === name2) //false
 console.log(name1!=name2)//true
 console.log(areEquallLowercase)//true
+console.log(name1.toLowerCase()===name2.toLowerCase())
